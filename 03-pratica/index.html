@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./styles.css" />
+        <script defer src="./script.js"></script>
+        <title>Prática 03</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="title">Jogo da Velha</h1>
+            <div class="table">
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+                <div class="table__box"></div>
+            </div>
+
+            <div class="controls">
+                <label class="controls__label" for="player1">
+                    Jogador 1 (X)
+                </label>
+                <input id="player1" class="controls__input" type="radio" name="player" value="X" />
+
+                <label class="controls__label" for="player2">
+                    Jogador 2 (O)
+                </label>
+                <input id="player2" class="controls__input" type="radio" name="player" value="O" />
+            </div>
+
+            <p class="result"></p>
+        </div>
+    </body>
+
+</html>
