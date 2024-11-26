@@ -235,7 +235,7 @@ list.innerHTML += '<li>Item 2</li>';
 list.innerHTML += '<li>Item 3</li>';
 ```
 
-- innerTEXT
+- innerText
 > Se quisermos ler ou modificar o texto de uma tag HTML, vamos usar esta propriedade:
 
 ```html
@@ -258,7 +258,7 @@ list.innerHTML += '<li>Item 3</li>';
 const title = document.querySelector('.title');
  
 // Irá trocar o conteúdo que é `Javascript` para `JS`
-title.innerTEXT = 'JS';
+title.innerText = 'JS';
 ```
 
 - style
